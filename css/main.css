@@ -724,8 +724,8 @@ select {
   margin-top: 2.5rem;
 }
 
-.mb-32 {
-  margin-bottom: 8rem;
+.mb-24 {
+  margin-bottom: 6rem;
 }
 
 .mb-12 {
@@ -786,10 +786,6 @@ select {
 
 .mb-auto {
   margin-bottom: auto;
-}
-
-.mb-24 {
-  margin-bottom: 6rem;
 }
 
 .mb-16 {
@@ -1172,11 +1168,6 @@ select {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.px-0 {
-  padding-left: 0px;
-  padding-right: 0px;
 }
 
 .py-5 {

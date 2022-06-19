@@ -905,7 +905,7 @@ select {
   flex: none;
 }
 
-.flex-grow {
+.grow {
   flex-grow: 1;
 }
 
@@ -967,6 +967,10 @@ select {
 
 .justify-around {
   justify-content: space-around;
+}
+
+.justify-items-end {
+  justify-items: end;
 }
 
 .gap-6 {
@@ -1209,6 +1213,10 @@ select {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-0 {
+  padding: 0px;
 }
 
 .px-6 {
@@ -1648,7 +1656,7 @@ body {
   }
 
   30%  {
-    transform: scale(.9,1.2)   translateY(-40px);
+    transform: scale(.9,1.2)   translateY(-35px);
   }
 
   50%  {
@@ -1678,7 +1686,7 @@ body {
   }
 
   30%  {
-    transform: scale(.9,1.2)   translateY(-40px);
+    transform: scale(.9,1.2)   translateY(-35px);
   }
 
   50%  {

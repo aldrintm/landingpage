@@ -2,13 +2,13 @@ module.exports = {
   content: ['./*.{html,js}'],
   theme: {
     screens: {
-      sm: '480px',
+      sm: '480px', // FOR PHONES
       // => @media (min-width: 480px) { ... }
-      md: '768px',
+      md: '768px', // FOR IPAD
       // => @media (min-width: 768px) { ... }
-      lg: '1024px',
+      lg: '1024px', // FOR DESKTOP MONITOR SCREENS
       // => @media (min-width: 1024px) { ... }
-      xl: '1440px',
+      xl: '1440px', // ET ALL BIG SCREENS LIKE LG 1024PX
       // => @media (min-width: 1280px) { ... }
     },
     extend: {
@@ -21,6 +21,8 @@ module.exports = {
         veryDarkBlue: 'hsl(233, 12%, 13%)',
         veryPaleRed: 'hsl(13, 100%, 96%)',
         veryLightGray: 'hsl(0, 0%, 98%)',
+        customGray: 'rgba(186,185,181,255)',
+        customCabinetBrown: 'rgba(207,163,118,255)',
       },
       fontFamily: {
         varela: "'Varela Round', sans-serif",

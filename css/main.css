@@ -905,10 +905,6 @@ select {
   flex: none;
 }
 
-.flex-shrink {
-  flex-shrink: 1;
-}
-
 .flex-grow {
   flex-grow: 1;
 }
@@ -1652,7 +1648,7 @@ body {
   }
 
   30%  {
-    transform: scale(.9,1.1)   translateY(-60px);
+    transform: scale(.9,1.2)   translateY(-40px);
   }
 
   50%  {
@@ -1682,7 +1678,7 @@ body {
   }
 
   30%  {
-    transform: scale(.9,1.1)   translateY(-60px);
+    transform: scale(.9,1.2)   translateY(-40px);
   }
 
   50%  {

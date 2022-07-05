@@ -11,40 +11,48 @@
     href="https://fonts.googleapis.com/css2?family=Martel:wght@400;600&family=Montserrat&family=Poppins:wght@300;400;600;700&family=Varela+Round&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </head>
 
 <body>
 
   <!-- Navbar -->
-  <header class="top-0">
-    <nav class="relative container mx-auto bg-transparent p-0">
+  <header class="top-0 bottom-0 shadow-md shadow-zinc-300">
+    <nav class="relative container mx-auto bg-white py-0">
+
+      
       <!-- Flex Container -->
       <div class="flex items-center justify-between">
         <!-- Logo -->
-        <div class="pt-2">
+        <div class="p-2 py-4">
           <a href="#" class="">
             <img src="./plamar-logo.jpg" alt="logo">
           </a>
         </div>
         <!-- Menu Items -->
-        <div class="hidden md:flex space-x-6 justify-items-end">
-          <a href="#" class="hover:text-brightRed hover:underline underline-offset-4 decoration-sky-500">Services</a>
-          <a href="#" class="hover:text-brightRed hover:underline underline-offset-4 decoration-sky-500">Gallery</a>
-          <a href="#" class="hover:text-brightRed hover:underline underline-offset-4 decoration-sky-500">About</a>
-          <a href="#" class="hover:text-brightRed hover:underline underline-offset-4 decoration-sky-500">Facility</a>
-          <a href="./contact.html" class="hover:text-brightRed hover:underline underline-offset-4 decoration-sky-500">Contact</a>
+        <div class="p-2 py-4 flex items-center">
+        <div class="hidden md:flex space-x-6 justify-end pr-6">
+          <a href="#" class="hover:text-brightRed hover-underline-animation md:text-lg text-base">Services</a>
+          <a href="#" class="hover:text-brightRed hover-underline-animation md:text-lg text-base">Gallery</a>
+          <a href="#" class="hover:text-brightRed hover-underline-animation md:text-lg text-base">About</a>
+          <a href="#" class="hover:text-brightRed hover-underline-animation md:text-lg text-base">Facility</a>
+          <a href="./contact.html" class="hover:text-brightRed hover-underline-animation md:text-lg text-base">Contact</a>
         </div>
         <!-- Button -->
         <a href=""
-          class="hidden md:block p-3 px-6 pt-3 text-white bg-brightRed rounded-lg baseline hover:bg-brightRedLight">Get
+          class="hidden md:block p-3 px-6 text-white bg-brightRed rounded-lg baseline hover:bg-brightRedLight">Get
           Quote</a>
+        </div>
 
         <!-- Hamburger Icon -->
+        <div class="md:hidden p-2 pt-3">
         <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
           <span class="hamburger-top"></span>
           <span class="hamburger-middle"></span>
           <span class="hamburger-bottom"></span>
         </button>
+      </div>
       </div>
 
       <!-- Mobile Menu Links -->
@@ -63,9 +71,9 @@
   </header>
 
   <!-- Hero Section -->
-  <section id="hero" class="">
+  <section id="hero" class="bg-zinc-100">
     <!-- Flex Container -->
-    <div class="container flex flex-col-reverse md:flex-row items-center md:px-4 mx-auto mb-auto mt-10 space-y-0 md:space-y-0">
+    <div class="container flex flex-col-reverse md:flex-row items-center md:px-4 mx-auto mb-auto space-y-0 md:space-y-0">
       <!-- Left Item -->
       <div class="flex flex-col mb-24 space-y-6 md:w-1/2 md:pr-4">
         <h1 class="max-w-lg text-4xl mt-8 font-extrabold text-center text-gray-700 md:text-4xl md:text-left">
@@ -88,13 +96,42 @@
       </div>
       <!-- Old Image -->
       <div class="w-full mb-16">
-        <img class="md:rounded-r-lg mb-5 md:rounded-md" src="img/Oakleigh_K_G Dodd_001_22.jpg" alt="image">
+        <img class="md:rounded-r-lg md:rounded-md" src="img/Oakleigh_K_G Dodd_001_22.jpg" alt="image">
       </div>
-
-
 
     </div>
   </section>
+
+
+  <!-- Slider main container -->
+  <div class="container mx-auto md:py-4">
+    <div class="swiper mySwiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide md:px-10"><img src="./img/Logos/dekton.png" alt=""></div>
+        <div class="swiper-slide md:px-10"><img src="./img/Logos/caesarstone.png" alt=""></div>
+        <div class="swiper-slide md:px-10"><img src="./img/Logos/cambria-logo-300x153.png" alt=""></div>
+        <div class="swiper-slide md:px-10"><img src="./img/Logos/LG-Viatera-logo.png" alt=""></div>
+        <div class="swiper-slide md:px-10"><img src="./img/Logos/silestone-logo-big.jpg" alt=""></div>
+        <div class="swiper-slide md:px-10"><img src="./img/Logos/neolith.png" alt=""></div>
+        <div class="swiper-slide md:px-10"><img src="./img/Logos/vetrazzo.png" alt=""></div>
+        <div class="swiper-slide md:px-10"><img src="./img/Logos/geolux.png" alt=""></div>
+        <div class="swiper-slide md:px-10"><img src="./img/Logos/silestone-sierra-west-sales-nm.jpg" alt=""></div>
+        <div class="swiper-slide md:px-10"><img src="./img/Logos/Neolith2.png" alt=""></div>
+      </div>
+      <!-- If we need pagination -->
+      <!-- <div class="swiper-pagination"></div> -->
+    
+      <!-- If we need navigation buttons -->
+      <!-- <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div> -->
+    
+      <!-- If we need scrollbar -->
+      <!-- <div class="swiper-scrollbar"></div> -->
+    </div>
+  </div>
+
 
   <!-- Project Gallery Section Here -->
   <!-- Image gallery -->
@@ -181,7 +218,7 @@
   
       <!-- <div class="aspect-w-3 aspect-h-5 rounded-lg overflow-hidden">
         <img src="img/VQ_DESIGNER_JRP_H_A07.jpg" alt="" class="w-full h-full object-center object-cover">
-      </div> -->
+      </div> -->      
   
       <div class="grid grid-cols-2 grid-flow-row gap-4">
         <div class="row-span-2" href="#">
@@ -491,7 +528,35 @@
     </div>
   </footer>
 
+  <!-- Hamburger Menu -->
   <script src="js/script.js"></script>
+
+  <!-- Scrolling Brands -->
+  <script>
+    const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    slidesPerView: 6,
+    grid: {
+      rows: 1,
+    },
+    loop: true,
+    autoplay: {
+      delay: 2000,
+    },
+    spaceBetween: 10,
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  })
+  
+  </script>
 
 </body>
 

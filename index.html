@@ -18,8 +18,8 @@
 <body>
 
   <!-- Navbar -->
-  <header class="top-0 bottom-0 shadow-md shadow-zinc-300">
-    <nav class="relative container mx-auto bg-white py-0">
+  <header class="top-0 bottom-0">
+    <nav class="relative container mx-auto bg-white md:py-2">
 
       
       <!-- Flex Container -->
@@ -27,11 +27,11 @@
         <!-- Logo -->
         <div class="p-2 py-4">
           <a href="#" class="">
-            <img src="./plamar-logo.jpg" alt="logo">
+            <img src="./plamar-logo.jpg" alt="plamar usa logo">
           </a>
         </div>
         <!-- Menu Items -->
-        <div class="p-2 py-4 flex items-center">
+        <div class="p-2 py-6 flex items-center">
         <div class="hidden md:flex space-x-6 justify-end pr-6">
           <a href="#" class="hover:text-brightRed hover-underline-animation md:text-lg text-base">Services</a>
           <a href="#" class="hover:text-brightRed hover-underline-animation md:text-lg text-base">Gallery</a>
@@ -41,7 +41,7 @@
         </div>
         <!-- Button -->
         <a href=""
-          class="hidden md:block p-3 px-6 text-white bg-brightRed rounded-lg baseline hover:bg-brightRedLight">Get
+          class="hidden lg:block p-3 px-6 text-white bg-brightRed rounded-lg baseline hover:bg-brightRedLight">Get a
           Quote</a>
         </div>
 
@@ -56,69 +56,76 @@
       </div>
 
       <!-- Mobile Menu Links -->
-      <div class="md:hidden">
+      <div class="md:hidden z-40">
         <div id="menu"
-          class="absolute hidden flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
-          <a href="#" class="hover:underline decoration-sky-500">Services</a>
-          <a href="#">Gallery</a>
-          <a href="#">About</a>
-          <a href="#">Facility</a>
-          <a href="./contact.html">Contact</a>
+          class="absolute hidden flex-col items-center self-end py-8 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+          <a href="#" class="hover:text-brightRed hover-underline-animation md:text-lg text-base bg-sky-200">Services</a>
+          <a href="#" class="hover:text-brightRed hover-underline-animation md:text-lg text-base">Gallery</a>
+          <a href="#" class="hover:text-brightRed hover-underline-animation md:text-lg text-base">About</a>
+          <a href="#" class="hover:text-brightRed hover-underline-animation md:text-lg text-base">Facility</a>
+          <a href="./contact.html" class="hover:text-brightRed hover-underline-animation md:text-lg text-base">Contact</a>
         </div>
       </div>
 
     </nav>
   </header>
 
+  
   <!-- Hero Section -->
-  <section id="hero" class="bg-zinc-100">
+  <section id="hero" class="bg-white">
     <!-- Flex Container -->
     <div class="container flex flex-col-reverse md:flex-row items-center md:px-4 mx-auto mb-auto space-y-0 md:space-y-0">
       <!-- Left Item -->
-      <div class="flex flex-col mb-24 space-y-6 md:w-1/2 md:pr-4">
+      <div class="flex flex-col mb-8 md:mb-10 lg:mb-24 space-y-6 md:w-1/2 md:pr-4">
         <h1 class="max-w-lg text-4xl mt-8 font-extrabold text-center text-gray-700 md:text-4xl md:text-left">
-          <span class="flex-1 block xl:inline md:text-2xl lg:text-4xl ">Bay Areas No. 1</span>
+          <span class="flex-1 block xl:inline md:text-4xl lg:text-4xl">Bay Areas No. 1</span>
           <span class="flex-1 block text-indigo-700 sm:inline md:text-xl lg:text-4xl">Fabricator & Installer</span>
         </h1>
 
-        <p class="max-w-sm text-center text-darkGrayishBlue pb-4 md:text-left md:text-sm">
+        <p class="max-w-sm text-center text-gray-500 selection:pb-4 md:text-left md:text-md">
           Plamar USA is Northern California’s <br> Custom <span
             class="font-bold underline underline-offset-4 decoration-sky-500">Fabricator and Installer</span> of Granite and Quartz slab materials for Kitchen Countertops, Bath Vanities, Shower Walls, Fireplaces, Outdoor BBQ Counters, Stairs,
           Flooring ...
         </p>
 
-        <div class="text-center space-x-6 md:text-left">
+        <div class="text-center pt-8 space-x-6 md:text-left">
           <a href="#"
-            class="p-4 px-6 text-white bg-brightRed text-center rounded-lg baseline hover:bg-brightRedLight shadow-xl">Get a Quote</a>
-            <a href="#"
+            class="p-4 px-6 text-white bg-brightRed text-center rounded-lg baseline hover:bg-brightRedLight shadow-xl md:hidden lg:inline-block">Get a Quote</a>
+            <a href="https://tranquil-tundra-23221.herokuapp.com/"
             class="p-4 px-6 text-white bg-brightRed text-center rounded-lg baseline hover:bg-brightRedLight shadow-xl md:hidden lg:inline-block">Slab Inventory</a>
         </div>
       </div>
       <!-- Old Image -->
-      <div class="w-full mb-16">
+      <div class="w-full mb-16 mt-10">
         <img class="md:rounded-r-lg md:rounded-md" src="img/Oakleigh_K_G Dodd_001_22.jpg" alt="image">
+        <!-- <p class="absolute p-4 text-center md:text-left inset-x-0 bottom-0 text-white md:text-2xl lg:text-4xl text-xl font-bold font-poppins tracking-wider">Design your own style</p> -->
       </div>
 
     </div>
   </section>
 
 
-  <!-- Slider main container -->
-  <div class="container mx-auto md:py-4">
+  <!-- Slider main container for medium screen-->
+  <div class="md:container mx-auto md:py-2 p-2 md:my-12">
+    <h2 class="md:text-xl text-base text-center font-bold font-montserrat text-gray-700 py-5 pt-2">Brands we work with</h2>
     <div class="swiper mySwiper">
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
         <!-- Slides -->
-        <div class="swiper-slide md:px-10"><img src="./img/Logos/dekton.png" alt=""></div>
-        <div class="swiper-slide md:px-10"><img src="./img/Logos/caesarstone.png" alt=""></div>
-        <div class="swiper-slide md:px-10"><img src="./img/Logos/cambria-logo-300x153.png" alt=""></div>
-        <div class="swiper-slide md:px-10"><img src="./img/Logos/LG-Viatera-logo.png" alt=""></div>
-        <div class="swiper-slide md:px-10"><img src="./img/Logos/silestone-logo-big.jpg" alt=""></div>
-        <div class="swiper-slide md:px-10"><img src="./img/Logos/neolith.png" alt=""></div>
-        <div class="swiper-slide md:px-10"><img src="./img/Logos/vetrazzo.png" alt=""></div>
-        <div class="swiper-slide md:px-10"><img src="./img/Logos/geolux.png" alt=""></div>
-        <div class="swiper-slide md:px-10"><img src="./img/Logos/silestone-sierra-west-sales-nm.jpg" alt=""></div>
-        <div class="swiper-slide md:px-10"><img src="./img/Logos/Neolith2.png" alt=""></div>
+        <div class="swiper-slide am:px-2 lg:px-6"><img src="./img/Logos/dekton.png" alt=""></div>
+        <div class="swiper-slide sm:px-3 lg:px-6"><img src="./img/Logos/caesarstone.png" alt=""></div>
+        <div class="swiper-slide sm:px-3 lg:px-6"><img src="./img/Logos/cambria-logo-300x153.png" alt=""></div>
+        <div class="swiper-slide sm:px-3 lg:px-6"><img src="./img/Logos/LG-Viatera-logo.png" alt=""></div>
+        <div class="swiper-slide sm:px-3 lg:px-6"><img src="./img/LogoS/corian-design-solidsurface-logo.svg" alt=""></div>
+        <div class="swiper-slide sm:px-3 lg:px-6"><img src="./img/Logos/neolith.png" alt=""></div>
+        <div class="swiper-slide sm:px-3 lg:px-6"><img src="./img/Logos/vetrazzo-en2X.png" alt=""></div>
+        <div class="swiper-slide sm:px-3 lg:px-6"><img src="./img/Logos/Wilsonart.webp" alt=""></div>
+        <div class="swiper-slide sm:px-3 lg:px-6"><img src="./img/Logos/geolux.png" alt=""></div>
+        <div class="swiper-slide sm:px-3 lg:px-6"><img src="./img/Logos/silestone-sierra-west-sales-nm.jpg" alt=""></div>
+        <div class="swiper-slide sm:px-3 lg:px-6"><img src="./img/Logos/Neolith2.png" alt=""></div>
+        <div class="swiper-slide sm:px-3 lg:px-6"><img src="./img/Logos/Corian-QUARTZ-logo.jpg" alt=""></div>
+        <div class="swiper-slide sm:px-3 lg:px-6"><img src="./img/Logos/hi-macs-logo.png" alt=""></div>
+        <div class="swiper-slide sm:px-3 lg:px-6"><img src="./img/Logos/hanstone-quartz-hires.png" alt=""></div>
       </div>
       <!-- If we need pagination -->
       <!-- <div class="swiper-pagination"></div> -->
@@ -134,8 +141,8 @@
 
 
   <!-- Project Gallery Section Here -->
-  <!-- Image gallery -->
-  <div class="container mx-auto pb-24">
+  <!-- Inspiration Gallery #1 -->
+  <!-- <div class="container mx-auto pb-24">
   <div class="flex flex-col justify-center w-full mt-12">
     <h1 class="pt-8 text-4xl font-bold md:text-2xl lg:text-4xl text-center font-montserrat text-gray-700">Inspiration Gallery #1</h1>
     
@@ -154,7 +161,7 @@
     </div> -->
 
    
-    <a class="" href="#">
+    <!-- <a class="" href="#">
       <div class="hover:bg-slate-700 aspect-w-3 aspect-h-2 rounded-lg shadow-xl overflow-hidden">
         <img src="img/VQ_DESIGNER_WIOTT_V_A02.jpg" alt="" class="w-full h-full object-center object-cover">
       </div>
@@ -189,29 +196,30 @@
     </div>
     
   </div>
-  </div>
+  </div> -->
 
 
 <!-- TO DO! FIX THE GRIDS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
   <!-- Image gallery Main Box -->
+  <!-- Inspiration Gallery #2 -->
   <div class="container mx-auto">
 
     <div class="flex flex-col">
-      <div class="flex pt-4 py-2 items-center">
+      <div class="flex pt-4 py-4 items-center md:mb-4">
         <div class="grow border-t border-gray-400"></div>
-        <span class="mx-4 text-3xl md:text-4xl font-bold font-montserrat text-gray-700">Inspiration Gallery #2</span>      
+        <span class="mx-4 text-3xl md:text-4xl font-semibold md:font-extrabold font-montserrat text-gray-700 my-5">Inspiration Gallery</span>      
         <div class="grow border-t border-gray-400"></div>      
       </div>
-      <div class="mx-auto">
-        <h3 class="text-xl text-center text-gray-700">Explore some popular designs</h3>        
-      </div>
-      <a class="pt-2 pb-2 text-center text-brightRed" href="#inspiration-gallery">
+      <!-- <div class="mx-auto">
+        <h3 class="text-xl text-center text-gray-700 mb-8">Explore some popular designs</h3>        
+      </div> -->
+      <!-- <a class="pt-2 pb-2 text-center text-brightRed" href="#inspiration-gallery">
         <div class="stage">
           <div class="box bounce-6">
             <i class="fa fa-angle-down" style="font-size:48px;color:brightRed"></i>
           </div>
         </div>
-      </a>
+      </a> -->
     </div>
  
     <div class="max-w-full flex flex-row md:grid md:grid-cols-2 md:gap-4" divide-y>
@@ -283,22 +291,24 @@
     </div>
 
 
+
+
   <!-- Features -->
   <section id="features"">
     <!-- Flex Container -->
-    <div class=" container flex flex-col px-4 mx-auto mt-20 space-y-12 md:space-y-0 md:flex-row">
+    <div class=" container flex flex-col px-3 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
     <!-- Whats Different? -->
-    <div class="flex flex-col space-y-12 md:w-1/2">
-      <h2 class="max-w-md text-4xl font-bold text-center md:text-6xl md:text-left">
+    <div class="flex flex-col justify-center space-y-12 md:w-1/2 pt-10">
+      <h2 class="max-w-md text-center md:text-left text-3xl md:text-6xl font-bold font-montserrat text-gray-700">
         Why choose Plamar USA?
       </h2>
-      <p class="max-w-md text-center text-darkGrayishBlue md:text-left">
-        Plamar USA Inc. is a <a href="https://google.com"><strong class="underline underline-offset-4 decoration-sky-500">Full Service Shop</strong></a>. We have been providing installs to the entire bay area for over <strong class="text-md">35 years</strong>. Our high-quality manufacturing facility can create the countertops you want. Our tools and teams of craftsmen can deliver the ultimate statement to match your kitchen design.
+      <p class="max-w-md text-center text-darkGrayishBlue md:text-left p-2 md:pl-0">
+        Plamar USA Inc. is a <a href="https://google.com"><strong class="underline underline-offset-4 decoration-sky-500">Full Service Shop</strong></a>. We have been providing granite and quartz countertops to the entire Bay Area for over <strong class="text-md">35 years</strong>. Our high-quality manufacturing facility can produce the countertops you want. Our tools and teams of craftsmen can deliver the ultimate statement to match your kitchen design.
       </p>
     </div>
 
     <!-- Numbered List -->
-    <div class="flex flex-col space-y-8 md:w-1/2">
+    <div class="flex flex-col pt-5 space-y-8 md:w-1/2">
       <!-- List Item 1 -->
       <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
         <!-- Heading -->
@@ -313,9 +323,7 @@
         <div>
           <h3 class="hidden mb-4 text-lg font-bold md:block">In Stock Slab Materials</h3>
           <p class="text-darkGrayishBlue">
-            Manage provides all the functionality your team needs, without the
-            complexity. Our software is tailor-made for modern digital product
-            teams.
+            Our in-stock quartz slab selection offers the ultimate convenience, providing customers with faster project completion, a wider range of options, reduced costs, and improved quality control. Take advantage of these benefits and enjoy your renovation sooner."
           </p>
         </div>
 
@@ -335,9 +343,7 @@
         <div>
           <h3 class="hidden mb-4 text-lg font-bold md:block">High End Fabrication</h3>
           <p class="text-darkGrayishBlue">
-            Manage provides all the functionality your team needs, without the
-            complexity. Our software is tailor-made for modern digital product
-            teams.
+            Our utilization of state-of-the-art machinery sets us apart and ensures that you receive a product that is unmatched in precision cuts, speed of fabrication, product quality, consistency, and durability. Your satisfaction is guaranteed through our commitment to utilizing only the best technology and techniques in the fabrication process. Experience the efficiency and benefits of our high-end machinery when fabricating your quartz countertops.  
           </p>
         </div>
 
@@ -357,9 +363,7 @@
         <div>
           <h3 class="hidden mb-4 text-lg font-bold md:block md:underline-offset-4">True Craftsmanship in Installation</h3>
           <p class="text-darkGrayishBlue">
-            Manage provides all the functionality your team needs, without the
-            complexity. Our software is tailor-made for modern digital product
-            teams.
+            Discover the difference of having a truly experienced installer for your kitchen quartz and stone countertop installation. Our team of experts bring their expertise, attention to detail, problem-solving skills, effective time management, and unwavering commitment to quality workmanship to every project. Trust in our experience for an organized and professional installation.
           </p>
         </div>
 
@@ -369,12 +373,22 @@
     </div>
   </section>
 
+  <!-- Visit our Showroom -->
+  <div class="container p-0 mx-auto mt-32 text-center">
+    <div class="mx-2 text-md md:text-2xl lg:text-3xl md:font-semibold font-montserrat text-gray-700 my-4">33100 Transit Ave., Union City CA 94587</div>
+    <div class="hidden xl:block lg:hidden md:hidden"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d202309.28362891107!2d-122.0399!3d37.600216!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f959f94be8ec3%3A0xf4dfc8e0006dbe51!2s33100%20Transit%20Ave%2C%20Union%20City%2C%20CA%2094587!5e0!3m2!1sen!2sus!4v1678171558703!5m2!1sen!2sus" width="1440" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    <div class="hidden xl:hidden lg:block md:hidden"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d202309.28362891107!2d-122.0399!3d37.600216!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f959f94be8ec3%3A0xf4dfc8e0006dbe51!2s33100%20Transit%20Ave%2C%20Union%20City%2C%20CA%2094587!5e0!3m2!1sen!2sus!4v1678171558703!5m2!1sen!2sus" width="1024" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    <div class="hidden xl:hidden lg:hidden md:block"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d202309.28362891107!2d-122.0399!3d37.600216!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f959f94be8ec3%3A0xf4dfc8e0006dbe51!2s33100%20Transit%20Ave%2C%20Union%20City%2C%20CA%2094587!5e0!3m2!1sen!2sus!4v1678171558703!5m2!1sen!2sus" width="768" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    <div class="xl:hidden lg:hidden md:hidden sm:block"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d202309.28362891107!2d-122.0399!3d37.600216!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f959f94be8ec3%3A0xf4dfc8e0006dbe51!2s33100%20Transit%20Ave%2C%20Union%20City%2C%20CA%2094587!5e0!3m2!1sen!2sus!4v1678171558703!5m2!1sen!2sus" width="480" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    <div class="xl:hidden lg:hidden md:hidden sm:hidden"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d202309.28362891107!2d-122.0399!3d37.600216!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f959f94be8ec3%3A0xf4dfc8e0006dbe51!2s33100%20Transit%20Ave%2C%20Union%20City%2C%20CA%2094587!5e0!3m2!1sen!2sus!4v1678171558703!5m2!1sen!2sus" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+  </div>
+
   <!-- Testimonials -->
   <section id="testimonials">
     <!-- Container to heading and testm blocks -->
     <div class="container px-4 mx-auto mt-32 text-center">
       <!-- Heading -->
-      <h2 class="text-4xl font-bold text-center">
+      <h2 class="text-4xl font-bold text-center font-montserrat text-gray-700">
         Our Customers
       </h2>
       <!-- Testimonials Container -->
@@ -535,7 +549,7 @@
   <script>
     const swiper = new Swiper('.swiper', {
     // Optional parameters
-    slidesPerView: 6,
+    slidesPerView: 3,
     grid: {
       rows: 1,
     },
@@ -543,13 +557,26 @@
     autoplay: {
       delay: 2000,
     },
-    spaceBetween: 10,
+    spaceBetween: 20,
     // If we need pagination
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
     },
-  
+    breakpoints: {
+      768: {
+        slidesPerView: 4,
+        spaceBetween:30
+      },
+      1024: {
+        slidesPerView: 5,
+        spaceBetween: 40
+      },
+      1440: {
+        slidesPerView: 6,
+        spaceBetween: 50
+      }
+    },  
     // And if we need scrollbar
     scrollbar: {
       el: '.swiper-scrollbar',

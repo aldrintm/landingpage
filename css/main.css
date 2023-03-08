@@ -1657,6 +1657,7 @@ body {
 
 .swiper {
   height: 16vh;
+  width: 80%;
 }
 
 .swiper-slide {

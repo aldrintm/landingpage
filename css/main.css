@@ -1923,34 +1923,6 @@ body {
 }
 
 @media (min-width: 768px) {
-  .md\:container {
-    width: 100%;
-  }
-
-  @media (min-width: 480px) {
-    .md\:container {
-      max-width: 480px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .md\:container {
-      max-width: 768px;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .md\:container {
-      max-width: 1024px;
-    }
-  }
-
-  @media (min-width: 1440px) {
-    .md\:container {
-      max-width: 1440px;
-    }
-  }
-
   .md\:col-span-2 {
     grid-column: span 2 / span 2;
   }

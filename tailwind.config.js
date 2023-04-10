@@ -29,6 +29,7 @@ module.exports = {
         martel: "'Martel', serif",
         poppins: "'Poppins', sans-serif",
         montserrat: "'Montserrat', sans-serif",
+        nunito: "'Nunito', sans-serif",
       },
     },
   },

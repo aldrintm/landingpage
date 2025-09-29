@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.plamarusa.com/</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.plamarusa.com/img/Oakleigh_K_G Dodd_001_22.jpg</image:loc>
+      <image:caption>Beautiful granite kitchen countertops installed by Plamar USA in Bay Area home</image:caption>
+      <image:title>Premium Granite Kitchen Countertops - Plamar USA</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.plamarusa.com/plamar-logo.jpg</image:loc>
+      <image:caption>Plamar USA - Bay Area granite and quartz countertop specialists</image:caption>
+      <image:title>Plamar USA Logo</image:title>
+    </image:image>
+  </url>
+
+  <!-- Services Pages -->
+  <url>
+    <loc>https://www.plamarusa.com/services</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/services/granite-countertops</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/services/quartz-countertops</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/services/kitchen-countertops</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/services/bathroom-vanities</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/services/custom-fabrication</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/services/installation</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Gallery and Portfolio -->
+  <url>
+    <loc>https://www.plamarusa.com/gallery</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.plamarusa.com/img/VQ_DESIGNER_WIOTT_V_A02.jpg</image:loc>
+      <image:caption>Modern quartz kitchen countertops with white cabinets - Plamar USA installation</image:caption>
+      <image:title>Modern Quartz Kitchen Countertops</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.plamarusa.com/img/VQ_DESIGNER_WOODWARD_H_C04.jpg</image:loc>
+      <image:caption>Beautiful granite island countertop in contemporary kitchen - Bay Area installation</image:caption>
+      <image:title>Granite Island Countertop</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.plamarusa.com/img/VQ_DESIGNER_JRP_H_A01.jpg</image:loc>
+      <image:caption>Elegant quartz bathroom vanity countertop - custom fabrication by Plamar USA</image:caption>
+      <image:title>Quartz Bathroom Vanity</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.plamarusa.com/img/VQ_DESIGNER_LWL_H_B02.jpg</image:loc>
+      <image:caption>Luxury granite kitchen countertops with waterfall edge - Union City fabrication</image:caption>
+      <image:title>Luxury Granite Kitchen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.plamarusa.com/img/VQ_DESIGNER_WOODWARD_H_C02.jpg</image:loc>
+      <image:caption>Premium quartz countertops with undermount sink - professional installation</image:caption>
+      <image:title>Premium Quartz with Undermount Sink</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.plamarusa.com/img/VQ_DESIGNER_WIOTT_H_A01.jpg</image:loc>
+      <image:caption>Custom granite kitchen island with bar seating - Bay Area fabrication</image:caption>
+      <image:title>Custom Granite Kitchen Island</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.plamarusa.com/img/VQ_DESIGNER_JRP_H_A03.jpg</image:loc>
+      <image:caption>Stunning quartz backsplash and countertops - complete kitchen remodel</image:caption>
+      <image:title>Quartz Kitchen Remodel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.plamarusa.com/img/VQ_DESIGNER_TEREZASPARKS_V_A06.jpg</image:loc>
+      <image:caption>Luxury granite countertops in modern kitchen design - Plamar USA craftsmanship</image:caption>
+      <image:title>Luxury Modern Granite Kitchen</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/gallery/kitchen-countertops</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/gallery/bathroom-vanities</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Brand Pages -->
+  <url>
+    <loc>https://www.plamarusa.com/brands/caesarstone</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/brands/silestone</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/brands/cambria</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/brands/dekton</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/brands/vadara</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/brands/corian</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- About and Company Pages -->
+  <url>
+    <loc>https://www.plamarusa.com/about</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/about/our-story</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/about/our-team</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Facility and Location -->
+  <url>
+    <loc>https://www.plamarusa.com/facility</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/contact</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Service Area Pages for Local SEO -->
+  <url>
+    <loc>https://www.plamarusa.com/service-areas/union-city</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/service-areas/fremont</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/service-areas/hayward</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/service-areas/san-jose</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/service-areas/oakland</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/service-areas/san-francisco</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Resource Pages -->
+  <url>
+    <loc>https://www.plamarusa.com/resources</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/resources/care-maintenance</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/resources/faq</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/resources/design-guide</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Inventory and Quotes -->
+  <url>
+    <loc>https://www.plamarusa.com/slab-inventory</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/quote</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Blog/News Section (if applicable) -->
+  <url>
+    <loc>https://www.plamarusa.com/blog</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/blog/2024-countertop-trends</loc>
+    <lastmod>2024-12-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/blog/granite-vs-quartz-guide</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Testimonials and Reviews -->
+  <url>
+    <loc>https://www.plamarusa.com/testimonials</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Legal Pages -->
+  <url>
+    <loc>https://www.plamarusa.com/privacy-policy</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://www.plamarusa.com/terms-of-service</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

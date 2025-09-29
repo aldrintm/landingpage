@@ -1,0 +1,103 @@
+# Robots.txt for Plamar USA - Bay Area Granite & Quartz Countertops
+# Website: https://www.plamarusa.com
+
+# Allow all search engines to crawl the entire site
+User-agent: *
+Allow: /
+
+# Disallow common admin and system directories
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /wp-config.php
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /logs/
+Disallow: /backup/
+Disallow: /database/
+
+# Disallow private customer files and forms
+Disallow: /private/
+Disallow: /customer-data/
+Disallow: /quotes/
+Disallow: /invoices/
+Disallow: /estimates/
+
+# Disallow duplicate or non-essential pages
+Disallow: /search
+Disallow: /*?search=
+Disallow: /*?s=
+Disallow: /*?print=
+Disallow: /print/
+Disallow: /*?ref=
+Disallow: /*?utm_source=
+Disallow: /*?utm_medium=
+Disallow: /*?utm_campaign=
+
+# Disallow development and staging areas
+Disallow: /dev/
+Disallow: /test/
+Disallow: /staging/
+Disallow: /beta/
+
+# Allow important directories for SEO
+Allow: /img/
+Allow: /images/
+Allow: /photos/
+Allow: /gallery/
+Allow: /css/
+Allow: /js/
+Allow: /fonts/
+
+# Allow PDF resources (catalogs, brochures)
+Allow: /*.pdf
+Allow: /resources/
+Allow: /downloads/
+Allow: /brochures/
+Allow: /catalogs/
+
+# Special rules for specific search engines
+
+# Google - allow everything by default
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Bing - allow everything
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Block problematic or unwanted bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+# Allow social media bots for better sharing
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: PinterestBot
+Allow: /
+
+# Sitemap location - Replace with your actual sitemap URL
+# Sitemap: https://www.plamarusa.com/sitemap.xml
+# Sitemap: https://www.plamarusa.com/sitemap-images.xml
+
+# Additional sitemaps for different content types
+# Sitemap: https://www.plamarusa.com/sitemap-gallery.xml
+# Sitemap: https://www.plamarusa.com/sitemap-products.xml
